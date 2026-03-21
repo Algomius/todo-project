@@ -1,4 +1,4 @@
-const API_AUTH = "https://127.0.0.1:8000/auth/"
+const API_AUTH = "/api/auth/"
 
 // register - Créer un utilisateur
 export async function creerUtilisateur(nouvelUtilisateur) {

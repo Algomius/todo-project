@@ -1,6 +1,6 @@
 import { rafraichirToken } from "./apiTacheAuth.js";
 
-const API_BASE = "https://127.0.0.1:8000/taches/"
+const API_BASE = "/api/taches/"
 
 // GET - Toutes les tâches
 export async function donneTaches(retry = false) {

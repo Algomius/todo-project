@@ -8,7 +8,7 @@ def get_db():
     finally:
         db.close()
 
-DATABASE_URL = "postgresql+psycopg2://apitacheuser:motDePasse@localhost:5432/apitache?client_encoding=utf8"
+DATABASE_URL = "postgresql+psycopg2://apitache:motDePasse@localhost:5432/apitache?client_encoding=utf8"
 
 engine = create_engine(DATABASE_URL)
 
